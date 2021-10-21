@@ -1,0 +1,19 @@
+{
+  "name": "mutantesmeli",
+  "version": "1.0.0",
+  "description": "test for Meli",
+  "main": "handler.js",
+  "scripts": {
+    "test": "env-cmd -f ./test/.env nyc --all --reporter=lcov --reporter=text-summary mocha -t 15000 --recursive \"./test/**/*.spec.js\" --reporter=nyan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danirp23/mutantesMeli.git"
+  },
+  "author": "Daniela Pedraza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danirp23/mutantesMeli/issues"
+  },
+  "homepage": "https://github.com/danirp23/mutantesMeli#readme"
+}

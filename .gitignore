@@ -53,3 +53,9 @@ typings/
 
 # Serverless directories
 .serverless/
+
+#vs Debug Test
+.vscode
+
+#package-lock
+package-lock.json

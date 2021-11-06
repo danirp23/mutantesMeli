@@ -9,9 +9,9 @@ describe('Test isMutant', function() {
         
     });
 
-    it('Success isMutant', async() => {
+    it.only('Success isMutant', async() => {
         const result = await handler.Handler(modelEvent.eventQuery({
-            "dna":["ATGCGA"]
+            "dna":["ATGCGA","CYYYYC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
         }, 
           'POST', {}, {}, {}), { 'awsRequestId': '3000' });
         console.log("result:", result)
